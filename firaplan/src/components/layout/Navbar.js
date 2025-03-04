@@ -1,8 +1,12 @@
 import React from 'react'
-
-function Navbar() {
+import { Link } from 'react-router-dom'
+const Navbar = ()=> {
   return (
-    <div>Navbar</div>
+    <nav className='nav-wrapper grey darken-3'>
+      <div className='container'>
+        <Link to='/' className='brand-logo'>Firaplan</Link>
+      </div>
+    </nav>
   )
 }
 
